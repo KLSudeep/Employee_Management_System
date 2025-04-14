@@ -12,7 +12,6 @@ public class AddEmployee extends JFrame implements ActionListener {
     Random ran=new Random();
     int number = ran.nextInt(999999);
 
-
     JTextField tname,tfname,taddress,tphone,taadhar,temail,tsalary,tdesignation;
     JLabel tempid;
     JDateChooser tdob;
@@ -20,7 +19,6 @@ public class AddEmployee extends JFrame implements ActionListener {
     JComboBox Boxeducation;
 
     AddEmployee(){
-
         getContentPane().setBackground(new Color(163,255,188));
         JLabel heading = new JLabel("Add Employee Details");
         heading.setBounds(320,30,500,50);
@@ -33,19 +31,16 @@ public class AddEmployee extends JFrame implements ActionListener {
         name.setFont(new Font("SAN_SERIF",Font.BOLD,20));
         add(name);
 
-
        tname=new JTextField();
        tname.setBounds(200,150,150,30);
        tname.setBackground(new Color(177,252,197));
        add(tname);
-
 
        //father name
         JLabel fname=new JLabel("Fathers Name");
         fname.setBounds(400,150,150,30);
         fname.setFont(new Font("SAN_SERIF",Font.BOLD,20));
         add(fname);
-
 
         tfname=new JTextField();
         tfname.setBounds(600,150,150,30);
@@ -67,7 +62,6 @@ public class AddEmployee extends JFrame implements ActionListener {
         salary.setFont(new Font("SAN_SERIF",Font.BOLD,20));
         add(salary);
 
-
         tsalary=new JTextField();
         tsalary.setBounds(600,200,150,30);
         tsalary.setBackground(new Color(177,252,197));
@@ -77,7 +71,6 @@ public class AddEmployee extends JFrame implements ActionListener {
         address.setBounds(50,250,150,30);
         address.setFont(new Font("SAN_SERIF",Font.BOLD,20));
         add(address);
-
 
         taddress=new JTextField();
         taddress.setBounds(200,250,150,30);
@@ -215,6 +208,4 @@ public class AddEmployee extends JFrame implements ActionListener {
     public static void main(String[] args) {
         new AddEmployee();
     }
-
-
 }
