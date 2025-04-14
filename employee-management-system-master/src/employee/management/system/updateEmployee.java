@@ -208,7 +208,6 @@ public class updateEmployee extends JFrame implements ActionListener {
             String education=teducation.getText();
             String designation=tdesignation.getText();
 
-
             try{
                 conn c = new conn();
                 String query = "update employee set fname='"+fname+"',salary='"+salary+"',address='"+address+"',phone='"+phone+"',email='"+email+"',education='"+education+"',designation='"+designation+"' where empid ='"+number+"'";
