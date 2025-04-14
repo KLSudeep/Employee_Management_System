@@ -64,7 +64,6 @@ public class Main_class extends JFrame {
         });
 
         img.add(rem);
-
         setSize(1120, 630);
         setLocation(250, 100);
         setLayout(null);
