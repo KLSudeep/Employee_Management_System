@@ -15,7 +15,6 @@ public class Splash extends JFrame {
         image.setBounds(0,0,1170,650);
         add(image);
 
-
         //size
         setSize(1170,650);
         //frame left to right
@@ -33,7 +32,6 @@ public class Splash extends JFrame {
             e.printStackTrace();
 
         }
-
     }
 
     public static void main(String[] args) {
